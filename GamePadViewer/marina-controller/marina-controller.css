@@ -162,13 +162,13 @@ CSS based upon examples from that site.
 .custom .stick {
     position: absolute;
     background: url(./images/stick-marina.svg);
-    background-position: -85px 0;
+    background-position: 0 0;
     height: 83px;
     width: 83px;
 }
 
 .custom .stick.pressed {
-    background-position: 0 0;
+    background-position: -85px 0;
 }
 
 .custom .stick.left {
