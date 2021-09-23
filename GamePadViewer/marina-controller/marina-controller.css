@@ -55,10 +55,16 @@ CSS based upon examples from that site.
 
 .custom .bumper.left {
     float: left;
+    position: relative;
+    top: 129px;
+    left: 107px;
 }
 
 .custom .bumper.right {
     float: right;
+    position: relative;
+    top: 129px;
+    right: 107px;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
